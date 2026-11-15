@@ -21,3 +21,4 @@ test_buffer
 *.swp
 *~
 run_tests
+test_gap

@@ -1,11 +1,17 @@
 #pragma once
 #include "ITextBuffer.h"
 
+// Contiguous std::string-backed implementation used as a reference oracle.
+// Provides O(1) random access, while Insert and Delete take O(N) in the worest case, due to shifting elements in memory
 
 class BaselineBuffer : public ITextBuffer {
 
     private:
+    
+    // Internal UTF-8 byte storage.
+    // Invariant: Length() always equals buffer_.size().
     std::string buffer_;
+
 
     public:
     BaselineBuffer() = default;
