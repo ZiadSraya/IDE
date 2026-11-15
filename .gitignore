@@ -1,0 +1,23 @@
+# Build directories
+build/
+cmake-build-*/
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.so
+*.out
+
+# Executables
+test_buffer
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+run_tests
