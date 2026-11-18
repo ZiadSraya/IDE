@@ -22,3 +22,5 @@ test_buffer
 *~
 run_tests
 test_gap
+test_piece_table
+test_gap
