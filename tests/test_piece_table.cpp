@@ -417,6 +417,26 @@ int main()
     TestNewLinesAndCRLF();
     TestUTF8Arabic();
 
+    PieceTable buffer("");
+
+    buffer.Insert(0, "Hello");
+    buffer.Insert(5, " World");
+
+    const auto before = buffer.PieceCount();
+    const auto textBefore = buffer.GetText();
+
+    buffer.Normalize();
+
+    const auto after = buffer.PieceCount();
+    const auto textAfter = buffer.GetText();
+
+    std::cout << "Before: " << before << '\n';
+    std::cout << "After: " << after << '\n';
+
+    assert(before == 2);
+    assert(after == 1);
+    assert(textBefore == textAfter);
+
     std::cout << "\nAll tests passed!\n";
 
     return 0;

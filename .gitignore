@@ -24,3 +24,9 @@ run_tests
 test_gap
 test_piece_table
 test_gap
+
+# Build outputs
+benchmark
+test_differential
+test_differential_release
+test_differential_san

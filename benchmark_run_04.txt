@@ -1,0 +1,90 @@
+
+========================================
+File Size: 100 KiB
+========================================
+Buffer          Workload                    Median
+BaselineBuffer  Sequential Typing           0.149 ms
+BaselineBuffer  Random Edits                2.151 ms
+BaselineBuffer  Full Read                   0.560 ms
+BaselineBuffer  Range Read                  0.039 ms
+GapBuffer       Sequential Typing           0.189 ms
+GapBuffer       Random Edits                2.905 ms
+GapBuffer       Full Read                   0.713 ms
+GapBuffer       Range Read                  0.041 ms
+PieceTable      Sequential Typing           0.006 ms
+PieceTable      Random Edits                4.610 ms
+PieceTable Piece Count: 2260
+PieceTable      Full Read                   0.400 ms
+PieceTable      Range Read                  0.030 ms
+
+========================================
+File Size: 512 KiB
+========================================
+Buffer          Workload                    Median
+BaselineBuffer  Sequential Typing           0.362 ms
+BaselineBuffer  Random Edits                6.554 ms
+BaselineBuffer  Full Read                   1.917 ms
+BaselineBuffer  Range Read                  0.031 ms
+GapBuffer       Sequential Typing           0.712 ms
+GapBuffer       Random Edits                7.241 ms
+GapBuffer       Full Read                   2.281 ms
+GapBuffer       Range Read                  0.038 ms
+PieceTable      Sequential Typing           0.076 ms
+PieceTable      Random Edits                5.620 ms
+PieceTable Piece Count: 3217
+PieceTable      Full Read                   2.081 ms
+PieceTable      Range Read                  0.034 ms
+
+========================================
+File Size: 1 MiB
+========================================
+Buffer          Workload                    Median
+BaselineBuffer  Sequential Typing           0.798 ms
+BaselineBuffer  Random Edits                14.507 ms
+BaselineBuffer  Full Read                   4.182 ms
+BaselineBuffer  Range Read                  0.032 ms
+GapBuffer       Sequential Typing           1.381 ms
+GapBuffer       Random Edits                27.215 ms
+GapBuffer       Full Read                   4.582 ms
+GapBuffer       Range Read                  0.038 ms
+PieceTable      Sequential Typing           0.187 ms
+PieceTable      Random Edits                5.435 ms
+PieceTable Piece Count: 3322
+PieceTable      Full Read                   3.964 ms
+PieceTable      Range Read                  0.035 ms
+
+========================================
+File Size: 5 MiB
+========================================
+Buffer          Workload                    Median
+BaselineBuffer  Sequential Typing           1.346 ms
+BaselineBuffer  Random Edits                177.614 ms
+BaselineBuffer  Full Read                   20.795 ms
+BaselineBuffer  Range Read                  0.041 ms
+GapBuffer       Sequential Typing           14.242 ms
+GapBuffer       Random Edits                248.531 ms
+GapBuffer       Full Read                   24.251 ms
+GapBuffer       Range Read                  0.057 ms
+PieceTable      Sequential Typing           8.132 ms
+PieceTable      Random Edits                5.819 ms
+PieceTable Piece Count: 3394
+PieceTable      Full Read                   21.854 ms
+PieceTable      Range Read                  0.042 ms
+
+========================================
+File Size: 10 MiB
+========================================
+Buffer          Workload                    Median
+BaselineBuffer  Sequential Typing           3.733 ms
+BaselineBuffer  Random Edits                433.205 ms
+BaselineBuffer  Full Read                   45.434 ms
+BaselineBuffer  Range Read                  0.058 ms
+GapBuffer       Sequential Typing           30.185 ms
+GapBuffer       Random Edits                624.429 ms
+GapBuffer       Full Read                   49.469 ms
+GapBuffer       Range Read                  0.050 ms
+PieceTable      Sequential Typing           17.927 ms
+PieceTable      Random Edits                5.843 ms
+PieceTable Piece Count: 3417
+PieceTable      Full Read                   42.312 ms
+PieceTable      Range Read                  0.059 ms

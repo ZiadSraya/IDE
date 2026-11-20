@@ -1,0 +1,115 @@
+
+========================================
+File Size: 100 KiB
+========================================
+Buffer          Workload                    Median
+BaselineBuffer  Sequential Typing           0.137 ms
+BaselineBuffer  Random Edits                2.008 ms
+Piece Count Before Normalize: 2260
+Piece Count After Normalize:  2260
+BaselineBuffer  Full Read                   0.406 ms
+BaselineBuffer  Range Read                  0.039 ms
+GapBuffer       Sequential Typing           0.148 ms
+GapBuffer       Random Edits                1.091 ms
+Piece Count Before Normalize: 2260
+Piece Count After Normalize:  2260
+GapBuffer       Full Read                   0.406 ms
+GapBuffer       Range Read                  0.034 ms
+PieceTable      Sequential Typing           0.005 ms
+PieceTable      Random Edits                4.515 ms
+Piece Count Before Normalize: 2260
+Piece Count After Normalize:  2260
+PieceTable      Full Read                   0.390 ms
+PieceTable      Range Read                  0.031 ms
+
+========================================
+File Size: 512 KiB
+========================================
+Buffer          Workload                    Median
+BaselineBuffer  Sequential Typing           0.351 ms
+BaselineBuffer  Random Edits                6.587 ms
+Piece Count Before Normalize: 3217
+Piece Count After Normalize:  3217
+BaselineBuffer  Full Read                   1.845 ms
+BaselineBuffer  Range Read                  0.028 ms
+GapBuffer       Sequential Typing           0.731 ms
+GapBuffer       Random Edits                7.166 ms
+Piece Count Before Normalize: 3217
+Piece Count After Normalize:  3217
+GapBuffer       Full Read                   2.264 ms
+GapBuffer       Range Read                  0.037 ms
+PieceTable      Sequential Typing           0.062 ms
+PieceTable      Random Edits                5.574 ms
+Piece Count Before Normalize: 3217
+Piece Count After Normalize:  3217
+PieceTable      Full Read                   2.065 ms
+PieceTable      Range Read                  0.033 ms
+
+========================================
+File Size: 1 MiB
+========================================
+Buffer          Workload                    Median
+BaselineBuffer  Sequential Typing           0.785 ms
+BaselineBuffer  Random Edits                15.862 ms
+Piece Count Before Normalize: 3322
+Piece Count After Normalize:  3322
+BaselineBuffer  Full Read                   4.049 ms
+BaselineBuffer  Range Read                  0.032 ms
+GapBuffer       Sequential Typing           1.429 ms
+GapBuffer       Random Edits                27.241 ms
+Piece Count Before Normalize: 3322
+Piece Count After Normalize:  3322
+GapBuffer       Full Read                   4.457 ms
+GapBuffer       Range Read                  0.038 ms
+PieceTable      Sequential Typing           0.193 ms
+PieceTable      Random Edits                5.602 ms
+Piece Count Before Normalize: 3322
+Piece Count After Normalize:  3322
+PieceTable      Full Read                   4.056 ms
+PieceTable      Range Read                  0.036 ms
+
+========================================
+File Size: 5 MiB
+========================================
+Buffer          Workload                    Median
+BaselineBuffer  Sequential Typing           1.337 ms
+BaselineBuffer  Random Edits                180.341 ms
+Piece Count Before Normalize: 3394
+Piece Count After Normalize:  3394
+BaselineBuffer  Full Read                   21.531 ms
+BaselineBuffer  Range Read                  0.040 ms
+GapBuffer       Sequential Typing           14.809 ms
+GapBuffer       Random Edits                274.999 ms
+Piece Count Before Normalize: 3394
+Piece Count After Normalize:  3394
+GapBuffer       Full Read                   24.384 ms
+GapBuffer       Range Read                  0.054 ms
+PieceTable      Sequential Typing           7.927 ms
+PieceTable      Random Edits                5.608 ms
+Piece Count Before Normalize: 3394
+Piece Count After Normalize:  3394
+PieceTable      Full Read                   21.227 ms
+PieceTable      Range Read                  0.043 ms
+
+========================================
+File Size: 10 MiB
+========================================
+Buffer          Workload                    Median
+BaselineBuffer  Sequential Typing           3.455 ms
+BaselineBuffer  Random Edits                420.330 ms
+Piece Count Before Normalize: 3417
+Piece Count After Normalize:  3417
+BaselineBuffer  Full Read                   44.834 ms
+BaselineBuffer  Range Read                  0.125 ms
+GapBuffer       Sequential Typing           27.895 ms
+GapBuffer       Random Edits                606.820 ms
+Piece Count Before Normalize: 3417
+Piece Count After Normalize:  3417
+GapBuffer       Full Read                   48.007 ms
+GapBuffer       Range Read                  0.053 ms
+PieceTable      Sequential Typing           18.968 ms
+PieceTable      Random Edits                5.316 ms
+Piece Count Before Normalize: 3417
+Piece Count After Normalize:  3417
+PieceTable      Full Read                   42.079 ms
+PieceTable      Range Read                  0.057 ms

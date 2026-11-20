@@ -21,9 +21,7 @@ std::string PieceTable::GetText() const
 
     for (const Piece& piece : pieces_)
     {
-        const std::string& sourceBuffer = (piece.source == BufferSource::Original)
-            ? originalBuffer_
-            : addBuffer_;
+        const std::string& sourceBuffer = (piece.source == BufferSource::Original) ? originalBuffer_ : addBuffer_;
 
         result.append(sourceBuffer, piece.start, piece.length);
     }
@@ -284,4 +282,9 @@ void PieceTable::Normalize()
             ++i;
         }
     }
+}
+
+std::size_t PieceTable::PieceCount() const noexcept
+{
+    return pieces_.size();
 }

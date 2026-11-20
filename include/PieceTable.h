@@ -27,6 +27,7 @@ private:
 
 public:
     explicit PieceTable(std::string_view initialText);
+    std::size_t PieceCount() const noexcept;
 
     void Insert(std::size_t index, std::string_view text) override;
     void Delete(std::size_t index, std::size_t length) override;
